@@ -8,10 +8,12 @@ We include a demonstration implementation and application of the proposed method
 The code in `main.py` can be used to grid search over different parameters for all stocks.
 
 # Data
-To obtain the S&P500 data we used, change the directory to `./data` and use the following command:
+To obtain the S&P500 data we used, change the directory to `./data`, use the following command, and extract the `csv` file:
 ```
-wget http://cat.phys.s.u-tokyo.ac.jp/~zliu/data/finance/sp500.csv
+wget https://github.com/pfnet-research/Finance_data_augmentation_ICAIF2022/releases/download/data/sp500.zip
 ```
+
+
 
 # A case study of the proposed method
 The following figures shows portfolio constructed by our neural network model of MSFT (Microsoft) during the 2020 stock market crash (see https://en.wikipedia.org/wiki/2020_stock_market_crash). The vertical dashed line shows the data of the market crash.
